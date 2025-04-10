@@ -1,3 +1,5 @@
 // action.provider.js
 
-// Placeholder for action provider logic
+export class ActionProvider {
+    // Add provider logic here
+}

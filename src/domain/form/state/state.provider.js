@@ -1,3 +1,5 @@
 // state.provider.js
 
-// Placeholder for state provider logic
+export class StateProvider {
+    // Add provider logic here
+}

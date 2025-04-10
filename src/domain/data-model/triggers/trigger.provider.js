@@ -1,3 +1,5 @@
 // trigger.provider.js
 
-// Placeholder for trigger provider logic
+export class TriggerProvider {
+    // Add provider logic here
+}

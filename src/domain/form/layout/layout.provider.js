@@ -1,3 +1,5 @@
 // layout.provider.js
 
-// Placeholder for layout provider logic
+export class LayoutProvider {
+    // Add provider logic here
+}

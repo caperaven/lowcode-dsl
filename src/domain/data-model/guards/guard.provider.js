@@ -1,3 +1,5 @@
 // guard.provider.js
 
-// Placeholder for guard provider logic
+export class GuardProvider {
+    // Add provider logic here
+}

@@ -1,3 +1,5 @@
 // condition.provider.js
 
-// Placeholder for condition provider logic
+export class ConditionProvider {
+    // Add provider logic here
+}
