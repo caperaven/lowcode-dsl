@@ -1,14 +1,20 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Run Deno Tests",
-      "type": "pwa-node",
-      "request": "launch",
-      "runtimeExecutable": "deno",
-      "runtimeArgs": ["test", "--allow-all"],
-      "cwd": "${workspaceFolder}",
-      "outputCapture": "std"
-    }
-  ]
-}
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Deno Tests",
+        "type": "pwa-node",
+        "request": "launch",
+        "runtimeExecutable": "deno",
+        "runtimeArgs": [
+          "test",
+          "--allow-all",
+          "--inspect-brk" // <- Important for debugging
+        ],
+        "cwd": "${workspaceFolder}",
+        "outputCapture": "std",
+        "attachSimplePort": 9229
+      }
+    ]
+  }
+  
