@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Deno Tests",
+      "type": "pwa-node",
+      "request": "launch",
+      "runtimeExecutable": "deno",
+      "runtimeArgs": ["test", "--allow-all"],
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    }
+  ]
+}

@@ -1,8 +1,5 @@
-// Create a test folder and add a Deno test for the parser
-// Test file: src/core/test/parser.test.js
-
 // Import the parser module
-import { parser } from "../parser.js";
+import { parser } from "../src/core/parser.js";
 import { assertEquals } from "https://deno.land/std@0.95.0/testing/asserts.ts";
 
 Deno.test("parser should correctly parse input", () => {
