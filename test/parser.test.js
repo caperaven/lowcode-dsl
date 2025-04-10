@@ -3,7 +3,7 @@ import { assert, assertEquals } from "https://deno.land/std@0.95.0/testing/asser
 import * as path from "https://deno.land/std@0.95.0/path/mod.ts";
 import { Parser } from "../src/core/parser.js";
 import { registerDataProviders } from "../src/domain/data-model/register-providers.js";
-import { registerFormProviders } from "../src/domain/data-model/forms/form.provider.js";
+import { registerFormProviders } from "../src/domain/form/register-providers.js";
 
 Deno.test("should parse data providers from Example.data.dsl", async () => {
   const dataDslPath = path.join(Deno.cwd(), "documents", "Example.data.dsl");
